@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(100, 99, 99);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    border-bottom: 4px solid rgba(255, 68, 0, 0.795);
+    
+}
+header>h1,nav{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+nav,li{
+    list-style-type: none;
+}
+
+ul,li,a{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+   text-decoration: none;
+}
+
+ul,a:hover{
+    color:  rgba(255, 68, 0, 0.795);
+}
+strong{
+    color: rgba(255, 68, 0, 0.795);
+}
+#dois{
+    color:rgba(255, 68, 0, 0.795) ;
+}
+
+/*formulario*/
+.form{
+    background-color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form>h2{
+
+    color: white;
+}
+#enviar{
+    padding: 9px;
+    width: 300px;
+    background-color:rgba(255, 68, 0, 0.795) ;
+}
+/*sobre nos*/
+
+section{
+    text-align: justify;
+}
+section>h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section>p{
+    margin: 0 auto;
+    padding-bottom: 15px;
+    max-width: 450px;
+    padding: 5px;
+}
+
+#grey{
+    width: 400px;
+    background-color: grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    
+   
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 68, 0, 0.795) ;
+    margin-top: 10px;
+}
+@media screen and (max-width:550px) {
+    header{
+        display: flex;
+        flex-flow: column;
+    }
+
+    header>h1,nav{
+        padding-bottom: 0px;
+        margin: 0 auto;
+    }
+    ul,li,a{
+        display: block;
+        
+    }
+
+}
+
+@media screen and (min-width:820px){
+    .conteiner{
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    #grey{
+        margin: 0px;
+    }
+}
