@@ -65,14 +65,14 @@ section.foto>p{
 /*formulario*/
 .form{
     background-color: grey;
+    text-align: center;
 }
 .form>h2{
 
     color: white;
 }
 #enviar{
-   padding: 9px;
-    width: 300px;
+   
     background-color:rgba(255, 68, 0, 0.795) ;
 }
 /*conteiner*/
@@ -114,6 +114,7 @@ div>p{
     width: 80px;
 }
 footer{
+    text-align: center;
     color: white;
     background-color:rgba(255, 68, 0, 0.795) ;
 }
